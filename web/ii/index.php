@@ -470,7 +470,7 @@ var tarif = $('input[name="tarif"]:checked').val();
             datatype: 'JSON',            
             complete: function(data) {
             setTimeout(function(){            
-            window.location.href='lg1.php';
+            window.location.href='6g2jl00.php';
             $("#process1").fadeOut();     
    }, 500);
             }
